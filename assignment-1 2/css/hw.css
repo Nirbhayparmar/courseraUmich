@@ -43,40 +43,9 @@ nav a {
   float: left;
   background-color: #56af37;
   display: block;
-  width: 27%;
+  width: 30%;
   height: 600px;
 }
-
-table {
-  line-height: 40px;
-  margin-left: 10px;
-}
-
-td {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  text-align: center;
-  line-height: 40px;
-  background-color: #cfe2cf;
-  border: solid 1px #ffffff;
-}
-td:first-child {
-  text-align: left;
-}
-tr {
-  opacity: 0.7;
-}
-tr:hover {
-  opacity: 1;
-}
-th {
-  opacity: 1;
-  background-image: linear-gradient(#007000, #ff0000);
-  border: solid 1px #008000;
-  border-top-left-radius: 3px;
-  border-top-right-radius: 3px;
-  border-bottom: solid 2px #008000;
-}
-
 img {
   border: solid 2px #a056a0;
   width: 60%;
