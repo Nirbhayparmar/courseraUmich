@@ -1,3 +1,19 @@
 p {
-  background-color: rgb(142, 87, 187);
+  background-color: rgb(49, 0, 211);
+}
+.color {
+  background-color: rgb(211, 0, 0);
+}
+.color1 {
+  background-image: linear-gradient(rgb(211, 0, 0), rgb(49, 0, 211));
+}
+.hide {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+p {
+  width: 500px;
 }

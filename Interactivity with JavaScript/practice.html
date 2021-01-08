@@ -5,23 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="practice.css" />
-    <script defer src="practice.js"></script>
+    <script src="practice.js"></script>
   </head>
   <body>
     <h1>This is for my practice.</h1>
     <br />
-    <button type="button">first</button>
-    <button type="button">two</button>
-    <button type="button">three</button>
-    <button type="button">five</button>
+    <button type="button" onclick="colorchange()">red</button>
+    <button type="button" onclick="colorchange1()">gradient</button>
+    <button type="button" onclick="hiden()">click to make it hiden</button>
+    <button type="button" onclick="visibled()">
+      click to make the para visible
+    </button>
     <br />
-    <p>
+    <p id="one">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, consequuntur
       optio fuga praesentium nemo earum quod quisquam aspernatur est deserunt
       nisi? Nesciunt harum labore illum excepturi cupiditate! Quae, tempora sit!
     </p>
 
-    <p>
+    <p id="two">
       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque placeat
       quo quasi. Itaque iste asperiores cupiditate saepe autem non, ipsam
       ratione animi adipisci libero tempore, nemo reiciendis provident, sapiente
