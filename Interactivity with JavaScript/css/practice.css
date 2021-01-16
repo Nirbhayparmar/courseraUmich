@@ -17,3 +17,13 @@ p {
 p {
   width: 500px;
 }
+div {
+  margin: 20px;
+  padding: 20px;
+}
+label {
+  margin: 5px;
+}
+input {
+  margin: 5px;
+}
